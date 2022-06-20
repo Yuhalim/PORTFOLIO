@@ -1,0 +1,350 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size:12px;
+    font-family: arial;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+p{
+  
+    font-size: 25px;
+    text-align: left;
+}
+
+span{
+    color: red;
+}
+.section-title{
+    font-size: 50px;
+    text-align: left;
+    color: royalblue;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.cta{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: white;
+    font-size: 4ram;
+    margin-top: 30px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+    border: 3px solid red;
+}
+
+.cta:hover{
+    color: white;
+    background-color: red;
+}
+/*Hero section*/
+.container{
+    min-height:50vh;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero{
+    background-image:url(images/top3.jpg);
+    background-size: cover;
+    padding: 2px;
+    background-position: top center;
+}
+
+#hero::after{
+    content:'';
+    position: absolute;
+    left: 0;
+    top:v0;
+    height: 100%;
+    width: 100%;
+    background-color: royalblue;
+    opacity: -7;
+    z-index:-1;
+}
+#hero .hero{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 100px;
+    justify-content: flex-start;
+}
+#hero h1{
+    display: royalblue;
+    width: fit-content;
+    font-size: 19px;
+    padding: 2px;
+    margin: 3px;
+    position: relative;
+    color: transparent;
+    animation: text_reveal .5s ease forwards;
+    animation-delay: 2s;
+}
+#hero h1:nth-child(1){
+    animation-delay:1s
+}
+
+#hero h1:nth-child(2){
+    animation-delay:2s
+}
+
+#hero h1:nth-child(3){
+    animation: text_reveal_name .5s ease forwards;
+    animation-delay:3s
+}
+
+#hero h1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: red;
+    animation: text_reveal_box 1s ease;
+    animation-delay: 1s;
+}
+#hero h1:nth-child(1) span{
+    animation-delay:.5s
+}
+
+#hero h1:nth-child(2) span{
+    animation-delay:1.5s
+}
+
+#hero h1:nth-child(3) span{
+    animation-delay: 2.5s
+}
+
+
+/*End of Hero section*/
+
+
+/*Skills section*/
+#skills .skills{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+#skills .skills-item{
+    flex-basis: 80%;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 20px;
+    background-image: url(images/picture5.jpg);
+    background-size: cover;
+    margin: 10px 5%;
+    position: relative;
+    overflow: hidden;
+
+}
+#skills .skills-item h2{
+    color: red;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#skills .skills-item p{
+    color:royalblue;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+#skills .skills-item img{
+    display: flex;
+
+}
+
+#skills .section-title{
+    font-size: 50px;
+    text-align: left;
+    color: royalblue;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+#skills .skills-top p{
+    font-size: 15px;
+    margin-top: 5px;
+    line-height:2.5ram;
+    font-weight:500;
+    letter-spacing: .05ram;
+    color:royalblue;
+    text-align: center;
+}
+/*End of skills section*/
+
+/*Achievement section*/
+#achieve .achieve{
+    flex-direction: column;
+    text-align: center;
+
+
+}
+
+#achieve .achieve-img img{
+    size: 5px;
+    max-width: 50%;
+    height: 220px;
+}
+/*End of Achievement section*/
+
+/*About section*/
+#about .about{
+    color: white;
+    justify-content: center;
+    flex-direction: column-reverse;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+#about .about-right{
+    width: 100%;
+}
+#about .about-left{
+    width: 250px;
+    height: 360;
+}
+#about .about-right p{
+    color:royalblue;
+    font-size: 20px;
+    font-family: montserrat;
+
+}
+#about .cta{
+    text-align: center;
+    color: white;
+}
+#about .about-img img{
+    max-width: 1200px;
+    height: 600px;
+    margin-top: 10px;
+}
+
+/*End of About section*/
+
+.table td{
+    color: royalblue;
+    padding: 10px 10px 10px 10px;
+    width: 500px;
+}
+table{
+    text-align: center;
+    justify-content: center;
+}
+th{
+    color: red;
+    font-size: 15px;
+}
+
+tr{
+    border-collapse: collapse;
+}
+/*keyframes*/
+@keyframes text_reveal_box{
+50%{
+    width: 100%;
+    left: 0%;
+}
+100%{
+    width: 0%;
+    left:100%;
+}
+}
+@keyframes text_reveal{
+100%{
+color: white;
+}}
+@keyframes text_reveal_name{
+100%{
+color: red;
+font-weight: 500px;
+}}
+/*keyframes*/
+
+.ct{
+    display: flex;
+    justify-content:center;
+}
+
+ul li{
+    display: inline-block;
+    justify-content:70px;
+}
+
+.link{
+    height: 100%;
+    width: 100%;
+    text-indent: 7px;
+    font-size: 15px;
+    margin-top: 8px;
+    width: 100%;
+    float: right;
+
+}
+
+body{
+    background-image:url(images/top2.jpg);
+    background-size: contain;
+}
+h3{color: black;}
+
+.form{
+    color:royalblue;
+    text-align: right;
+}
+textarea{
+    font-family: cursive;
+    font-size: 20px;
+}
+.form input{
+    height: 50px;
+    justify-content: center;
+    font-family: cursive;
+    font-size: 20px;
+    color:royalblue;
+}
+.copy{
+color: royalblue;
+}
+button{
+    color: aqua;
+    background-color: red;
+    font-weight: 100;
+    font-family: cursive;
+    font-size: 20px;
+}
+a .cta{
+    text-align: center;
+    justify-content: center;
+
+}
+.tab{
+    background-image: url(images/top2.jpg);
+    background-size: cover;
+}
+.tab a{
+    height: 100%;
+    width: 100%;
+    text-indent: 7px;
+    font-size: 15px;
+    margin-top: 8px;
+    width: 100%;
+    float: right;
+    color: black;
+
+}

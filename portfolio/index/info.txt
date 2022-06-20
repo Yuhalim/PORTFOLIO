@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: norwester
+font link: http://jamiewilson.io/norwester/
+font author: Jamie Wilson
+font author site: http://jamiewilson.io/
+
+
+icon designer: ali zizai
+icon designer link: /alizizai
+        
+{"bg-gradient-0":"#182471","bg-gradient-1":"#2664C8","icon":"#fff","font":"#fff","slogan":"#1423ff"}
+      
