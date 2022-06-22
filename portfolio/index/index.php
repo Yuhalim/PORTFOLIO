@@ -11,11 +11,11 @@
         <header>
             <nav class="link">
                 <ul>
-                    <li><a href="skills.html"><h3>SKILLS</h3></a></li>
-                    <li><a href="achievements.html"><h3>ACHIEVEMENTS</h3></a></li>
-                    <li><a href="about.html"><h3>ABOUT</h3></a></li>
-                    <li><a href="education.html"><h3>EDUCATION</h3></a></li>
-                    <li><a href="contact.html"><h3>CONTACT</h3></a></li>
+                    <li><a href="#skills"><h3>SKILLS</h3></a></li>
+                    <li><a href="#achieve"><h3>ACHIEVEMENTS</h3></a></li>
+                    <li><a href="#about"><h3>ABOUT</h3></a></li>
+                    <li><a href="#education"><h3>EDUCATION</h3></a></li>
+                    <li><a href="#contact"><h3>CONTACT</h3></a></li>
                 </ul>
 
             </nav>

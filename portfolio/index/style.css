@@ -7,6 +7,7 @@
 html {
     font-size:12px;
     font-family: arial;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -294,7 +295,7 @@ ul li{
     margin-top: 8px;
     width: 100%;
     float: right;
-
+    position: fixed;
 }
 
 body{
@@ -331,20 +332,5 @@ button{
 a .cta{
     text-align: center;
     justify-content: center;
-
-}
-.tab{
-    background-image: url(images/top2.jpg);
-    background-size: cover;
-}
-.tab a{
-    height: 100%;
-    width: 100%;
-    text-indent: 7px;
-    font-size: 15px;
-    margin-top: 8px;
-    width: 100%;
-    float: right;
-    color: black;
 
 }
