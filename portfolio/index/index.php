@@ -17,7 +17,6 @@
                     <li><a href="#education"><h3>EDUCATION</h3></a></li>
                     <li><a href="#contact"><h3>CONTACT</h3></a></li>
                 </ul>
-
             </nav>
         </header>
         <main>
@@ -111,7 +110,7 @@
                 <div class="about container">
                     <div class="about-left">
                         <div class="about-img">
-                            <img src="halim.jpg">
+                            <img src="images/halim.jpeg">
                         </div>
                     </div>
                     <div class="about-right">
